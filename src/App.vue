@@ -2,9 +2,10 @@
 
   <div id="app">
   <!-- the router outlet, where all matched components would ber viewed -->
-  
+
   <router-link v-bind:to="'/'">Home</router-link>
   <router-link v-bind:to="'/sweet'">Sweet</router-link>
+  <router-link v-bind:to="'/new'">New Content</router-link>
   <router-view>
   </router-view>
   </div>

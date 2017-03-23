@@ -1,18 +1,18 @@
 <template>
-  <div id="sweet">
-  <h1>This is the content we added via our Sweet.vue</h1>
+  <div id="new">
+      <h1> this shoould be 'new' content on the page</h1>
 
   </div>
 </template>
 
 <script>
 export default {
-  name: 'sweet'
+  name: 'new'
 }
 </script>
 <!-- styling for the component -->
 <style>
-#sweet {
+#new{
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -11,10 +11,12 @@ Vue.use(VueRouter)
 //define your routes
 import Hello from './components/Hello'
 import Sweet from './components/Sweet'
+import New from './components/New'
 
 const routes = [
   {path: '/', component: Hello},
-  {path: '/sweet', component: Sweet}
+  {path: '/sweet', component: Sweet},
+  {path: '/new', component: New},
 ]
 
 // Create the router instance and pass the `routes` option
