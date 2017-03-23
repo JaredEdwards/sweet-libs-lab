@@ -1,7 +1,6 @@
 <template>
   <div id="sweet">
   <h1>This is the content we added via our Sweet.vue</h1>
-
   </div>
 </template>
 
